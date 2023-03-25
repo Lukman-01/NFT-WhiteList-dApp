@@ -14,4 +14,4 @@ module.exports = {
   },
 };
 
-//Whitelist Contract Address: 0x83663Fc80d39f55d147013d62ae416C0B507B791
+//Whitelist Contract Address: 0xC03814F91a4Ae88A5f5d18F005e72A8D55218b75
