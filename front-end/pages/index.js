@@ -4,6 +4,7 @@ import Web3Modal from "web3modal";
 import { providers, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
 import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
+import NavBar from "./NavBar";
 
 export default function Home() {
   // walletConnected keep track of whether the user's wallet is connected or not
@@ -198,8 +199,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
+      <NavBar />
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Fortunate Crypto Devs!</h1>
           <div className={styles.description}>
             {/* Using HTML Entities for the apostrophe */}
             It&#39;s an NFT collection for developers in Crypto.
@@ -210,12 +212,12 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./crypto-devs.svg" />
+          <img className={styles.image} src="./Nft Minting.png" />
         </div>
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Fortunate Web Devs
       </footer>
     </div>
   );
